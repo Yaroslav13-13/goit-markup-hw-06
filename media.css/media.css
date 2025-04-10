@@ -4,3 +4,18 @@
     padding-left: ;
 }
 }
+
+
+/* ____desktop version____ */
+
+@media screen (min-wdth:1440px) {
+    .container {
+        width: 1440px;
+        padding-left: ;
+    }
+}
+
+
+
+
+
