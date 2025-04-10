@@ -1,5 +1,6 @@
 {
     "editor.hideCursorInOverviewRuler": false,
     "editor.cursorStyle": "line",
-    "editor.overtypeCursorStyle": "block"
+    "editor.overtypeCursorStyle": "block",
+    "editor.fontSize": 18
 }
