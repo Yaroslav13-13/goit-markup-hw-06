@@ -246,7 +246,8 @@ a {
 }
 
 .container-icon-features {
-  background-color: #f4f4fd;
+  display: none;
+  /* background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
@@ -254,7 +255,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 8px; */
 }
 
 .features-list {
