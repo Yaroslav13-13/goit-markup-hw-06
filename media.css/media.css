@@ -13,6 +13,10 @@
     width: calc((100% - 3 * 24px) / 2);
   }
 
+  .features-item-text {
+    max-width: 356px;
+  }
+
   /*________________ SECTION-3 _______________*/
 
   .taste-list {

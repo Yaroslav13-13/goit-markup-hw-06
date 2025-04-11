@@ -301,6 +301,7 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   margin: 0;
+  max-width: 288px;
 }
 
 /*________________ SECTION-3 _______________*/
