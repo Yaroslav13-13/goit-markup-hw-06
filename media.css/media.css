@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 736px;
+    width: 768px;
   }
 
   .features-subtitle {
@@ -12,13 +12,20 @@
   .features-item {
     width: calc((100% - 3 * 24px) / 2);
   }
+
+  /*________________ SECTION-3 _______________*/
+
+  .taste-list {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
 }
 
 /* ____desktop version____ */
 
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1158px;
+    width: 1440px;
   }
 
   .features {
@@ -54,5 +61,30 @@
 
   .features-item-text {
     font-weight: 400;
+    max-width: 264px;
+  }
+
+  /*________________ SECTION-3 _______________*/
+
+  .taste {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .taste-title {
+    margin-bottom: 72px;
+  }
+
+  .taste-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .taste-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .taste-item-image {
+    min-width: 100%;
   }
 }
