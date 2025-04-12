@@ -24,6 +24,8 @@ h5 {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
@@ -305,6 +307,13 @@ a {
 }
 
 /*________________ SECTION-3 _______________*/
+
+.taste-container {
+  width: 264px;
+  padding-left: 28px;
+  padding-right: 28px;
+  margin: 0 auto;
+}
 
 .taste {
   background-color: #f4f4fd;

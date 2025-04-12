@@ -1,5 +1,6 @@
 /* ____tablet version____ */
 
+/*________________ SECTION-2 _______________*/
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
@@ -86,9 +87,5 @@
 
   .taste-item {
     width: calc((100% - 3 * 24px) / 4);
-  }
-
-  .taste-item-image {
-    min-width: 100%;
   }
 }
