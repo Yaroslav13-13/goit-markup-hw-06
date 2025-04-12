@@ -25,6 +25,11 @@
     row-gap: 64px;
     column-gap: 24px;
   }
+
+  /*________________ SECTION-4_______________*/
+  .portfolio-item {
+    width: calc((100% - 48px) / 2);
+  }
 }
 
 /* ____desktop version____ */
@@ -89,5 +94,21 @@
 
   .taste-item {
     width: calc((100% - 3 * 24px) / 4);
+  }
+
+  /*________________ SECTION-4_______________*/
+
+  .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .portfolio-list {
+    column-gap: 24px;
+    row-gap: 48px;
   }
 }
