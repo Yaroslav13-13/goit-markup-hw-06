@@ -16,6 +16,16 @@
       url(../images/Dark-bg-tabl.jpg);
   }
 
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+  }
+
+  .hero-btn {
+    margin-bottom: 112px;
+  }
+
   /*________________ SECTION-2 _______________*/
 
   .features-subtitle {
@@ -69,7 +79,7 @@
   }
 
   .hero-btn {
-    margin-bottom: 204px;
+    margin-bottom: 188px;
   }
 
   /*________________ SECTION-2 _______________*/
