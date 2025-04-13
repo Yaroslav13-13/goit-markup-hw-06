@@ -176,7 +176,7 @@ a {
   padding-bottom: 48px;
   padding-left: 472px;
   padding: 188px 0 188px;
-  min-width: 1440px;
+  /* min-width: 1440px; */
   margin: 0 auto;
   max-width: 1440px;
   background-size: cover;
