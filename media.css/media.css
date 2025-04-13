@@ -1,11 +1,22 @@
 /* ____tablet version____ */
 
-/*________________ SECTION-2 _______________*/
 @media screen and (min-width: 768px) {
   .container,
   .taste .container {
     width: 768px;
   }
+
+  /*________________ SECTION-1 _______________*/
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tabl.jpg);
+  }
+
+  /*________________ SECTION-2 _______________*/
 
   .features-subtitle {
     text-align: left;
@@ -27,6 +38,7 @@
   }
 
   /*________________ SECTION-4_______________*/
+
   .portfolio-item {
     width: calc((100% - 48px) / 2);
   }
@@ -39,6 +51,18 @@
   .taste .container {
     width: 1440px;
   }
+
+  /*________________ SECTION-1 _______________*/
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+  }
+
+  /*________________ SECTION-2 _______________*/
 
   .features {
     padding-bottom: 120px;

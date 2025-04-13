@@ -168,7 +168,7 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/Dark-bg-mob.jpg);
   /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1-min.jpg); */
   background-repeat: no-repeat;
   background-position: center;
@@ -184,12 +184,15 @@ a {
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  /* font-size: 56px; */
+  font-size: 36px;
+  /* line-height: 1.07; */
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
+  margin-bottom: 72px;
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
@@ -203,7 +206,8 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  margin-bottom: 204px;
+  /* margin-bottom: 204px; */
+  margin-bottom: 72px;
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
