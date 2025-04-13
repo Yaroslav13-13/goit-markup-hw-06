@@ -44,7 +44,7 @@
   }
 }
 
-/* ____desktop version____ */
+/* ______________DESKTOP VERSION______________ */
 
 @media screen and (min-width: 1440px) {
   .container,
@@ -52,7 +52,7 @@
     width: 1440px;
   }
 
-  /*________________ SECTION-1 _______________*/
+  /*________________ SECTION-1 ________________*/
 
   .hero {
     background-image: linear-gradient(
@@ -60,6 +60,16 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 48px;
+  }
+
+  .hero-btn {
+    margin-bottom: 204px;
   }
 
   /*________________ SECTION-2 _______________*/
