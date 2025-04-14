@@ -178,6 +178,17 @@ a {
   background-size: cover;
 }
 
+@media screen and (min-resolution: 2x) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob-2x.jpg);
+    padding-bottom: 112px;
+  }
+}
+
 .hero-title {
   font-weight: 700;
   /* font-size: 56px; */
@@ -297,10 +308,10 @@ a {
 
 /*________________ SECTION-3 _______________*/
 
-.taste .container {
+/* .taste .container {
   padding-left: 28px;
   padding-right: 28px;
-}
+} */
 
 .taste {
   background-color: #f4f4fd;

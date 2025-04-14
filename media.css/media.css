@@ -1,8 +1,30 @@
 /* ____tablet version____ */
 
+@media screen and (min-resolution: 2x) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tabl-2x.jpg);
+    padding-bottom: 112px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tabl-2x.jpg);
+      padding-bottom: 112px;
+    }
   }
 
   .taste .container {
@@ -57,16 +79,9 @@
 
 /* ______________DESKTOP VERSION______________ */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .container {
-    width: 1440px;
-  }
-
-  .taste .container,
-  .features .container,
-  .portfolio .container {
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
   }
 
   /*________________ SECTION-1 ________________*/
@@ -78,6 +93,17 @@
       ),
       url(../images/people-office.jpg);
     padding-bottom: 188px;
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x.jpg);
+      padding-bottom: 112px;
+    }
   }
 
   .hero-title {
