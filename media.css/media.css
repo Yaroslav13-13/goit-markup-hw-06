@@ -62,6 +62,13 @@
     width: 1440px;
   }
 
+  .taste .container,
+  .features .container,
+  .portfolio .container {
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+
   /*________________ SECTION-1 ________________*/
 
   .hero {
