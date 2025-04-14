@@ -169,14 +169,10 @@ a {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/Dark-bg-mob.jpg);
-  /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1-min.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 188px;
-  padding-bottom: 48px;
-  padding-left: 472px;
-  padding: 188px 0 188px;
-  /* min-width: 1440px; */
+  padding-bottom: 72px;
   margin: 0 auto;
   max-width: 1440px;
   background-size: cover;
@@ -209,7 +205,6 @@ a {
   background-color: #4d5ae5;
   /* margin-bottom: 188px; */
   /* margin-bottom: 112px; */
-  margin-bottom: 72px;
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
@@ -235,6 +230,7 @@ a {
 .features {
   padding-bottom: 96px;
   padding-top: 96px;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -302,10 +298,8 @@ a {
 /*________________ SECTION-3 _______________*/
 
 .taste .container {
-  width: 264px;
   padding-left: 28px;
   padding-right: 28px;
-  margin: 0 auto;
 }
 
 .taste {
