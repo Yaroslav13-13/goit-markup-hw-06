@@ -59,6 +59,14 @@ a {
   display: block;
 }
 
+/* .mob-menu {
+  display: none;
+}
+
+.mob-menu.active {
+  display: block;
+} */
+
 .mob-menu {
   width: 100%;
   height: 100%;
@@ -70,24 +78,26 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-mob-menu-two {
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  z-index: 99;
-  padding: 24px 24px 40px 16px;
-  display: flex;
-  flex-direction: column;
+  /* opacity: 0;
+  pointer-events: none;
+  visibility: hidden; */
 }
 
 .button-mob-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
   display: block;
   margin-left: auto;
   margin-bottom: 24px;
+  background-color: #e7e9fc;
+  border-radius: 50%;
+  border: 1px solid #2e2f42;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .svg-button-mob-menu {
@@ -100,6 +110,7 @@ mob-menu-two {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-decoration: none;
+  margin-top: 72px;
 }
 
 .mob-nav-item:not(:last-child) {
@@ -140,6 +151,49 @@ mob-menu-two {
 .icon {
 }
 
+.mob-contacts {
+  font-style: normal;
+}
+
+mob-contacts-list .mob-contacts-item:first-child .contacts-link-mob {
+  color: #4d5ae5;
+}
+.mob-contacts-list {
+  margin-bottom: 48px;
+}
+
+.mob-contacts-list .mob-contacts-item {
+  margin-bottom: 24px;
+}
+
+.mob-contacts-list .mob-contacts-item:last-child {
+  margin-bottom: 0;
+}
+
+.mob-contacts-item {
+}
+
+.contacts-link-mob-blue {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #4d5ae5;
+}
+
+.contacts-link-mob {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.mob-contacts-list {
+}
+
 /*---------------- HEADER -----------------*/
 
 .menu-open-btn {
@@ -147,8 +201,8 @@ mob-menu-two {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 24px;
-  right: 24px;
+  top: 16px;
+  right: 16px;
   width: 24px;
   height: 24px;
   border: none;
