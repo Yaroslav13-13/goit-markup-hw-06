@@ -27,9 +27,51 @@
     }
   }
 
+  /*---------------- HEADER -----------------*/
+
   .taste .container {
     padding-left: 28px;
     padding-right: 28px;
+  }
+
+  .contacts-list {
+    isplay: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contacts-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #434455;
+  }
+
+  .mob-menu,
+  .menu-open-btn {
+    display: none;
+  }
+
+  .nav-list,
+  .contacts-list {
+    display: flex;
+  }
+
+  .container-footer-logo {
+    text-align: center;
+    padding-left: 50px;
+  }
+
+  .container-footer {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .footer-subscribe {
+    gap: 24px;
   }
 
   /*________________ SECTION-1 _______________*/
@@ -75,6 +117,8 @@
   .portfolio-item {
     width: calc((100% - 48px) / 2);
   }
+
+  /*________________ FOOTER_______________*/
 }
 
 /* ______________DESKTOP VERSION______________ */
@@ -82,6 +126,16 @@
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
+  }
+
+  .mob-menu,
+  .menu-open-btn {
+    display: none;
+  }
+
+  .nav-list,
+  .contacts-list {
+    display: flex;
   }
 
   /*________________ SECTION-1 ________________*/

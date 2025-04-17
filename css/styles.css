@@ -78,9 +78,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* opacity: 0;
+  opacity: 0;
   pointer-events: none;
-  visibility: hidden; */
+  visibility: hidden;
 }
 
 .button-mob-menu {
@@ -110,7 +110,7 @@ a {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-top: 72px;
+  margin-bottom: 72px;
 }
 
 .mob-nav-item:not(:last-child) {
@@ -689,6 +689,7 @@ svg-button-close {
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
+  flex-direction: column;
 }
 
 .text-footer {
@@ -703,6 +704,7 @@ svg-button-close {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0;
 }
 
 .footer-soc-list {
@@ -743,18 +745,24 @@ svg-button-close {
 }
 
 .container-footer-logo {
-  margin-top: 0px;
-  margin-right: 120px;
+  /* margin-top: 0px;
+  margin-right: 120px; */
+  text-align: center;
 }
 
 .container-footer {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  align-items: baseline;
+  align-items: baseline; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
 }
 
 .container-footer-soc {
-  margin-right: 120px;
+  /* margin-right: 120px; */
+  text-align: center;
 }
 
 .backdrop {
@@ -1023,11 +1031,18 @@ svg-button-close {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+
+  text-align: center;
 }
 
 .footer-subscribe {
+  /* display: flex;
+  gap: 24px; */
+
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
 }
 
 .footer-input {
