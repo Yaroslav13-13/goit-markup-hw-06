@@ -113,6 +113,12 @@
   }
 
   /*________________ FOOTER_______________*/
+
+  .modal {
+    padding: 72px 24px 24px 24px;
+    width: 408px;
+    min-height: 584px;
+  }
 }
 
 /* ______________DESKTOP VERSION______________ */
@@ -286,7 +292,9 @@
     justify-content: unset;
   }
 
-__________________Window_MODAL_______________________
-
-
+  .modal {
+    padding: 72px 24px 24px 24px;
+    width: 408px;
+    min-height: 584px;
+  }
 }

@@ -784,8 +784,10 @@ svg-button-close {
 
 .modal {
   border-radius: 4px;
-  width: 408px;
-  min-height: 584px;
+  /* width: 408px; */
+  /* min-height: 584px; */
+  width: 288px;
+  min-height: 623px;
   background-color: #fcfcfc;
   position: absolute;
   top: 50%;
@@ -874,7 +876,7 @@ svg-button-close {
 }
 
 .modal {
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
 }
 
 .modal-label {
@@ -973,7 +975,10 @@ svg-button-close {
   color: #8e8f99;
   align-items: center;
   margin-top: 16px;
-  margin-right: 8px;
+  margin-right: ;
+  display: flex;
+  align-items: center;
+  
 }
 
 .terms-btn {
@@ -999,6 +1004,7 @@ svg-button-close {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8px;
+  flex-shrink: 0;
 }
 
 .modal-check:checked + .label-terms span {
