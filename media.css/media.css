@@ -1,16 +1,5 @@
 /* ____tablet version____ */
 
-@media screen and (min-resolution: 2x) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg-tabl-2x.jpg);
-    padding-bottom: 112px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
@@ -29,13 +18,18 @@
 
   /*---------------- HEADER -----------------*/
 
+  .page-header {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .taste .container {
     padding-left: 28px;
     padding-right: 28px;
   }
 
   .contacts-list {
-    isplay: flex;
+    display: flex;
     align-items: center;
     flex-direction: column;
     gap: 12px;
@@ -136,6 +130,24 @@
   .nav-list,
   .contacts-list {
     display: flex;
+  }
+
+  /*---------------- HEADER -----------------*/
+
+  .contacts-list {
+    flex-direction: row;
+
+    gap: 40px;
+  }
+
+  .header-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-header {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   /*________________ SECTION-1 ________________*/
@@ -239,4 +251,42 @@
     column-gap: 24px;
     row-gap: 48px;
   }
+
+  /*________________ FOOTER_______________*/
+  .page-footer {
+    flex-direction: initial;
+  }
+
+  .container-footer {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: unset;
+    justify-content: unset;
+    gap: unset;
+  }
+
+  .container-footer-soc {
+    margin-right: 120px;
+    text-align: left;
+  }
+
+  .container-footer-logo {
+    margin-top: 0px;
+    margin-right: 120px;
+  }
+
+  .text-footer {
+    min-width: 264px;
+  }
+
+  .footer-subscribe {
+    display: flex;
+    gap: 24px;
+    flex-wrap: unset;
+    justify-content: unset;
+  }
+
+__________________Window_MODAL_______________________
+
+
 }
