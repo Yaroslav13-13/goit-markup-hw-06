@@ -18,6 +18,11 @@
 
   /*---------------- HEADER -----------------*/
 
+  .header-logo {
+    padding: 24px 0px;
+    margin-right: 120px;
+  }
+
   .page-header {
     padding-top: 0;
     padding-bottom: 0;
@@ -42,6 +47,7 @@
     line-height: 1.2;
     letter-spacing: 0.04em;
     color: #434455;
+    padding: 0;
   }
 
   .mob-menu,
@@ -77,12 +83,14 @@
       ),
       url(../images/Dark-bg-tabl.jpg);
     padding-bottom: 112px;
+    padding-top: 112px;
   }
 
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    margin-bottom: 36px;
+    margin-bottom: 48px;
+    max-width: 496px;
   }
 
   /*________________ SECTION-2 _______________*/
@@ -92,18 +100,23 @@
   }
 
   .features-item {
-    width: calc((100% - 3 * 24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   .features-item-text {
     max-width: 356px;
   }
 
+  .features-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
   /*________________ SECTION-3 _______________*/
 
   .taste-list {
-    row-gap: 64px;
-    column-gap: 24px;
+    gap: 64px 24px;
   }
 
   .taste-soc-list {
@@ -113,15 +126,42 @@
   /*________________ SECTION-4_______________*/
 
   .portfolio-item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 24px) / 2);
+    justify-content: center;
+  }
+
+  .portfolio-list {
+    row-gap: 72px;
   }
 
   /*________________ FOOTER_______________*/
+
+  .container-footer {
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 72px 24px;
+    padding-left: 108px;
+  }
 
   .modal {
     padding: 72px 24px 24px 24px;
     width: 408px;
     min-height: 584px;
+  }
+
+  .container-footer-logo {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .subscribe-subtitle {
+    text-align: left;
+  }
+  .container-footer-soc {
+    text-align-last: left;
   }
 }
 
@@ -269,25 +309,32 @@
 
   /*________________ FOOTER_______________*/
   .page-footer {
-    flex-direction: initial;
+    flex-direction: row;
   }
 
   .container-footer {
     display: flex;
-    align-items: baseline;
-    flex-wrap: unset;
-    justify-content: unset;
-    gap: unset;
+    /* align-items: baseline; */
+    flex-wrap: nowrap;
+    /* justify-content: unset; */
+    gap: 0;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .container-footer-soc {
-    margin-right: 120px;
+    margin-right: 70px;
     text-align: left;
   }
 
   .container-footer-logo {
-    margin-top: 0px;
+    width: 264px;
     margin-right: 120px;
+  }
+
+  .subscribe {
+    min-width: 463px;
   }
 
   .text-footer {
