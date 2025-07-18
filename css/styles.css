@@ -3,6 +3,9 @@ body {
   color: #434455;
   background-color: white;
 }
+.body-color {
+  background-color: #7fffd4;
+}
 
 ul,
 ol {
