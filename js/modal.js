@@ -12,3 +12,12 @@ openModal.addEventListener("click", () => {
 btnClose.addEventListener("click", () => {
   modal.classList.remove("is-open");
 });
+
+// const heroTitle = document.querySelector(".hero-btn");
+// const bodyColor = document.querySelector("body");
+
+// heroTitle.addEventListener("click", () => {
+//   bodyColor.classList.toggle("body-color");
+// });
+
+// bodyColor.insertAdjacentHTML();
